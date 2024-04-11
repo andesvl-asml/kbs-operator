@@ -214,11 +214,11 @@ spec:
                     fieldRef:
                       fieldPath: metadata.namespace
                 - name: KBS_IMAGE_NAME
-                  value: ghcr.io/confidential-containers/staged-images/kbs-grpc-as:latest
+                  value: europe-docker.pkg.dev/asml-dpng-dev-shared/dpng/ghcr.io/confidential-containers/staged-images/kbs-grpc-as:latest
                 - name: AS_IMAGE_NAME
-                  value: ghcr.io/confidential-containers/staged-images/coco-as-grpc:latest
+                  value: europe-docker.pkg.dev/asml-dpng-dev-shared/dpng/ghcr.io/confidential-containers/staged-images/coco-as-grpc:latest
                 - name: RVPS_IMAGE_NAME
-                  value: ghcr.io/confidential-containers/staged-images/rvps:latest
+                  value: europe-docker.pkg.dev/asml-dpng-dev-shared/dpng/ghcr.io/confidential-containers/staged-images/rvps:latest
                 image: quay.io/confidential-containers/kbs-operator:latest
                 livenessProbe:
                   httpGet:
